@@ -60,7 +60,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-    <meta name="monetag" content="7eae952598f4c15cb7b9be6e90b31e26">
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -82,6 +81,7 @@ export default function RootLayout({ children }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="monetag" content="7eae952598f4c15cb7b9be6e90b31e26">
       </head>
       <body className={cn("flex flex-col min-h-svh", inter.className)}>
         <ThemeProvider
