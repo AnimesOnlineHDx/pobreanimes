@@ -23,7 +23,7 @@ export const AdScript = () => {
             src="//static.getclicky.com/js"
           ></Script>
 
-          <meta name="monetag" content="7eae952598f4c15cb7b9be6e90b31e26">
+
         </>
       )}
     </Suspense>
