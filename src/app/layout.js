@@ -60,6 +60,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+    <meta name="monetag" content="7eae952598f4c15cb7b9be6e90b31e26">
         <link
           rel="apple-touch-icon"
           sizes="180x180"
