@@ -96,17 +96,6 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </ThemeProvider>
-        <a
-          title="Privacy-friendly Web Analytics"
-          href="https://clicky.com/101458500"
-        >
-          <img
-            alt="Clicky"
-            src="//static.getclicky.com/media/links/badge.gif"
-            border="0"
-          />
-        </a>
-
         <AdScript />
 
         <Script id="jw-player-key" type="text/javaScript">
