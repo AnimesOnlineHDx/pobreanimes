@@ -9,6 +9,7 @@ export function Footer() {
           Este site não hospeda nenhum arquivo de vídeo, apenas os cataloga.
         </span>
       </div>
+      <meta name="monetag" content="7eae952598f4c15cb7b9be6e90b31e26">
     </footer>
   );
 }
