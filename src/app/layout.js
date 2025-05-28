@@ -25,14 +25,14 @@ export const metadata = {
     template: "%s",
   },
   keywords,
-  metadataBase: new URL("https://animesonlinehd.online"),
+  metadataBase: new URL("https://pobreanimes.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title,
     description,
-    siteName: "Animes Online HD",
+    siteName: "Pobre Animes",
     images: [
       {
         url: "/banner.jpg",

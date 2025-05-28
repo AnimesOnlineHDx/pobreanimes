@@ -31,7 +31,7 @@ export async function generateMetadata({ params }, parent) {
     openGraph: {
       title: _title,
       description: _description,
-      siteName: "Animes Online HD",
+      siteName: "Pobre Animes",
       images: [_images, ...prevOGImages],
     },
     twitter: {
