@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Box com estilo igual ao da imagem */}
       <div className="text-center max-w-2xl mx-auto px-4">
-        <h3 className="text-lg font-semibold">⚠️ POBRE FLIX - ATENÇÃO ⚠️</h3>
+        <h3 className="text-lg font-semibold">⚠️ POBRE ANIMES - ATENÇÃO ⚠️</h3>
         <p className="text-muted-foreground mt-1">
           ♥️ Os anúncios são para manter nosso site online - pedimos total compreensão! ♥️
         </p>
