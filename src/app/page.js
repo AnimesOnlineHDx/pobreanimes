@@ -29,7 +29,7 @@ export default function Home() {
       {/* Botões de redes sociais */}
       <div className="flex justify-center gap-4">
         <a
-          href="https://t.me/seuTelegram"
+          href="https://t.me/pobreanimes"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-[#0088cc] hover:bg-[#0088cc] hover:text-white px-4 py-2 rounded-md flex items-center gap-2 transition"
