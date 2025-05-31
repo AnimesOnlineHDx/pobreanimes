@@ -59,8 +59,12 @@ export async function getAnimesByCategory({ slug }) {
 }
 
 export const createImage = (file) => {
-  return "https://cdn.appanimeplus.tk/img/" + file;
+  if (file.startsWith("http")) {
+    return file;
+  }
+  return "https://cdn.atv2.net/img/" + file;
 };
+
 
 export const renderReleaseItem = (item) => {
   const tags = [];
@@ -106,26 +110,30 @@ export const renderSearchItem = (item) => {
   };
 };
 
-export const renderAnimeDetails = (result) => {
-  if (!result[0] || result[0].response !== "success") return { error: true };
+export const renderAnimeDetails = (anime) => {
+  if (!anime || anime.response !== "success") {
+    return { error: true };
+  }
 
-  const anime = result[0];
+  const { category_id, category_name, category_icon, category_desc, genres, ano } = anime;
 
   const tags = [];
 
-  if (anime?.genres && typeof anime?.genres === "string") {
-    anime?.genres?.split(", ").forEach((genre) => tags.push(genre?.trim()));
+  if (Array.isArray(genres)) {
+    genres.forEach((genre) => {
+      if (genre?.name) tags.push(genre.name.trim());
+    });
   }
 
-  if (anime?.ano) {
-    tags.push(anime?.ano);
+  if (ano) {
+    tags.push(ano);
   }
 
   return {
-    id: anime?.category_id,
-    title: anime?.category_name,
-    image: createImage(anime?.category_icon),
-    description: anime?.category_desc,
+    id: category_id,
+    title: category_name,
+    image: createImage(category_icon),
+    description: category_desc,
     tags,
   };
 };
