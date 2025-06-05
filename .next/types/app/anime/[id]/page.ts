@@ -1,4 +1,4 @@
-// File: C:\Users\DraKENN\Desktop\pobreanimes\src\app\anime\[id]\page.js
+// File: C:\Users\DraKEN\pobreanimes\src\app\anime\[id]\page.js
 import * as entry from '../../../../../src/app/anime/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\DraKENN\Desktop\pobreanimes\src\app\categories\[category_slug]\page.jsx
+// File: C:\Users\DraKEN\pobreanimes\src\app\categories\[category_slug]\page.jsx
 import * as entry from '../../../../../src/app/categories/[category_slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
